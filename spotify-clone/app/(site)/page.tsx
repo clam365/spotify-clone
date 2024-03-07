@@ -1,6 +1,5 @@
-
 export default function Home() {
   return (
-    <div className={"text-green-500"}>Spotify Clone</div>
+    <div className={"text-green-500"}>Main Content</div>
   );
 }

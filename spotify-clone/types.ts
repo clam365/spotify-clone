@@ -4,6 +4,15 @@ import macro from "styled-jsx/macro";
 //We are now creating the backend to be used in our typescript functions. Based on
 //the Supabase table key names, this is where it will go regarding Stripe
 
+export interface Song {
+    id: string;
+    user_id: string;
+    author: string;
+    title: string;
+    song_path: string;
+    image_path: string;
+}
+
 export interface UserDetails {
     id: string;
     first_name: string;
@@ -56,3 +65,4 @@ export interface Subscription {
     trail_end?: string;
     prices?: Price;
 }
+
